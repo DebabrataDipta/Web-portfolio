@@ -1,11 +1,11 @@
 body{
     font-family: 'Dongle', sans-serif;
-    
+    margin: 0;
 }
 h1{
    font-size: 50px;
 }
-#first{
+.num1class{
     font-size: 50px;
     color: orange;
 }
@@ -23,5 +23,136 @@ h2{
     padding: 2%; 
 }
 .half-width img{
-    width: 100%;
+    width: 85%;
+    height: 10%;
+}
+.top-class{
+    background-image: url("Images/top-banner.png");
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+#linkedin{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 800;
+    background-image: linear-gradient(red,tomato);
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.second img{
+    width: 35%;
+    height: 5%;
+    margin: 6%;
+    float: left;
+    padding: 2%;
+    margin-top: -50px;
+}
+#second{
+    font-size: 55px;
+    color: black;
+    font-weight: 700;
+    /* padding: 2%; */
+}
+.second h3{
+    font-size: 50px;
+    font-weight: 600;
+    color:rgba(34, 34, 233, 0.836);
+    /* padding: 4%; */
+}
+.third{
+    font-size: 30px;
+    padding:4px;
+    margin-right: 3%;
+}
+#fifth{
+    background-image: linear-gradient(red,tomato);
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+.down-class{
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 3000px;
+    margin-right: 5px;
+}
+p{
+    color: dimgray;
+}
+
+/* #ninth{
+    color: cornflowerblue;
+    font-size: 55px;
+    font-weight: 700;
+} */
+#ten{
+    color: rgba(0, 0, 255, 0.842);
+    font-size: 40px;
+    font-weight: 600;
+    margin:2%
+}
+#eleven{
+    color: rgba(0, 0, 255, 0.849);
+    font-size: 40px;
+    font-weight: 600;
+}
+.experience-area{
+    margin-top: -850px;
+    margin-left:3%;
+    padding:3%;
+}
+#twelve{
+    color: dimgray;
+    font-size: 30px;
+    padding-top: -40px;
+}
+#thirteen{
+    color: dimgray;
+    font-size: 30px;
+    padding-top: -40px;
+}
+#fourteen{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 700;
+    background-image: linear-gradient(black,gray);
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 500px;
+    margin-left: 50px;
+}
+.single-area{
+    box-shadow: 10px 10px 35px grey;
+    border-radius: 15px;
+    height: 600px;
+}
+.experience-area{
+    background-image: url("Images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 1000px; 
+    margin-left: 0px;
+}
+#thousandtwo{
+        border-left: 11px solid;
+        border-image: linear-gradient(180deg, lightsalmon,tomato);
+        border-image-slice: 1;
+}
+#thousandOne{
+    border-left: 11px solid rgb(53, 53, 247);
+    border-image: linear-gradient(180deg, navy,lightblue);
+    border-image-slice: 1;
+}
+footer p{
+    font-size: 25px;
+    text-align: center;
 }
